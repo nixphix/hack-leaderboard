@@ -1,0 +1,65 @@
+body,
+html {
+    font-family: "lato";
+    color: #6c7279;
+    background: #f2f2f2;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+.searchbar {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px 20px 20px 50px;
+    border-radius: 50px;
+    outline: none;
+    height: 60px;
+}
+
+.trending {
+    background: white;
+    float: left;
+    width: 93%;
+    padding: 30px 40px;
+    border-radius: 8px;
+}
+
+.trending span {
+    color: #a39eb9;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.trending th {
+    color: #6d20cd;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.trending-heading-column {
+    padding-left: 70px;
+    padding-right: 150px;
+}
+.trending-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.trending-table td {
+    padding: 10px 10px 28px 10px;
+}
+.trending-table tr {
+    border-bottom: 1px solid #cecece;
+    text-align: center;
+}
+
+.trending-table tr.trending-table-heading {
+    border: 0;
+}
