@@ -63,3 +63,7 @@ html {
 .trending-table tr.trending-table-heading {
     border: 0;
 }
+.time{
+    float: right;
+    display: flex;
+}

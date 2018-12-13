@@ -43,11 +43,13 @@ class Home extends Component {
 	}
 
 	render() {
-		console.log(this.state.data);
+		
 		return (
 			<div>
 				<h2>Public Leaderboard</h2>
-				<p>Leaderboard is based on 60% of test data</p>
+				<span>Leaderboard is based on 60% of test data</span>
+				<strong><span className="time">Updated on : {data['time']}</span></strong>
+				<br/>
 				<br/>
 				<div className="trending">
 					<table className="trending-table">
