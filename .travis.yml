@@ -9,3 +9,4 @@ deploy:
   provider: surge
   project: ./build/
   domain: hack-leaderboard.surge.sh 
+  skip_cleanup: true
